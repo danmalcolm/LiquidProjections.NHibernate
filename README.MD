@@ -1,5 +1,9 @@
 # Liquid Projections for NHibernate [![Build status](https://ci.appveyor.com/api/projects/status/8shaimqx3u366bji/branch/master?svg=true)](https://ci.appveyor.com/project/dennisdoomen/liquidprojections-nhibernate-69l6u/branch/master)
 
+## Note:
+
+This contains a prototype port of the NHibernateProjector to an implementation that uses Entity Framework Core, available in separate project on efcore-prototype branch.
+
 ## What is this?
 This [package](https://www.nuget.org/packages/LiquidProjections.NHibernate/) provides an `NHibernateProjector` that allows you to build [NHibernate]((https://www.nuget.org/packages/NHibernate/))-backed projectors for use with [LiquidProjections'](https://github.com/liquidprojections/LiquidProjections) event mapping API and `Dispatcher` class.
 
